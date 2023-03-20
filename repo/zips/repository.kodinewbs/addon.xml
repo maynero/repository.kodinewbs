@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodinewbs" name="Kodi Newbs Repository" version="1.0.0" provider-name="maynero">
+    <extension point="xbmc.addon.repository" name="Kodi Newbs Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/maynero/repository.kodinewbs/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/maynero/repository.kodinewbs/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/maynero/repository.kodinewbs/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi Newbs Repository</summary>
+        <description>Kodi Newbs Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
