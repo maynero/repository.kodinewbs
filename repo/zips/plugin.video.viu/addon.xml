@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.viu" name="Viu" version="0.0.6+matrix.1" provider-name="maynero">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.7.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Viu</summary>
+        <description lang="en_GB">Viu over-the-top (OTT) video streaming service Add-on</description>
+        <disclaimer lang="en_GB">The use of this add-on may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum></forum>
+        <source>https://github.com/maynero/plugin.video.viu</source>
+        <news>
+v0.0.6+matrix.1 (2023-03-20)
+- Viu site changes
+
+v0.0.5+matrix.1 (2022-08-25)
+- Fix unsorted video items when some episodes are only available on premium
+
+v0.0.4+matrix.1 (2022-05-27)
+- Fix issue where "coming soon" video are being sent to UpNext
+- Fix issue where "coming soon" video can be played but it actually played previous episode
+
+v0.0.3+matrix.1 (2022-05-13)
+- Add undefined preferred_subtitle variable
+
+v0.0.2+matrix.1 (2022-05-13)
+- Add support for account login
+- Add support for Up Next
+- Fix logging labels
+
+v0.0.1-alpha (2022-05-09)
+- Add new categories to featured menu
+        </news>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot01.png</screenshot>
+            <screenshot>resources/media/screenshot02.png</screenshot>
+        </assets>
+    </extension>
+</addon>
