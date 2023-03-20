@@ -1,0 +1,4 @@
+[submodule "repo/plugin.video.viu"]
+	path = repo/plugin.video.viu
+	url = https://github.com/maynero/plugin.video.viu
+	branch = master
