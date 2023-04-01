@@ -2,7 +2,7 @@ name: update-modules
 
 on:
   repository_dispatch:
-    types: update
+    types: [release]
 
 jobs:
   update:
